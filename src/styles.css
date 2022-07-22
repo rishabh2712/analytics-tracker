@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.photo-element {
+  display: flex;
+}
+
+.photo-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr 2fr;
+  gap: 15px;
+}
